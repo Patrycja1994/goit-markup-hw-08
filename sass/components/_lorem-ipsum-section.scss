@@ -1,0 +1,60 @@
+.lorem-ipsum-text {
+    display: flex;
+    align-items: center;
+
+        &__list{
+        display: flex;
+    }
+    
+        &__item {
+        margin-right: 30px;
+    }
+    
+        &__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        color: var(--text-title);
+        margin-bottom: 10px;
+    }
+    
+        &__contents {
+        display: flex;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: var(--text);
+        width: 270px;
+        height: 75px;
+    }
+}
+
+.lorem-ipsum-picture {
+        &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+        &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 270px;
+        height: 120px;
+        background-color: var(--overlay-background);
+        margin-top: 94px;
+        margin-bottom: 30px;
+    }
+    
+        &__link {
+        cursor: default;
+    }
+    
+        &__images{
+        width: 65.32px;
+        height: 70px;
+    }
+}
+
+

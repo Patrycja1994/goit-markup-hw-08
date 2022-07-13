@@ -1,0 +1,16 @@
+.address {
+    font: inherit;
+    margin-top: 20px;
+}
+
+.address-footer__address,
+.address-footer__email {
+    margin-bottom: 9px;
+}
+
+.address-footer__email-link,
+.address-footer__telephone-link {
+        font-size: 14px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.6);
+}

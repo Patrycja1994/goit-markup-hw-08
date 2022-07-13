@@ -1,0 +1,23 @@
+
+.join-us {
+justify-content: flex-start;
+margin-left: 70px;
+
+         &__title {
+         align-items: center;
+         margin-top: 12px;
+         margin-bottom: 20px;
+         font-weight: 700; 
+         font-size: 14px; 
+         line-height: 16.41px;
+    } 
+
+.social-links__icons--fill {
+     fill: var(--background);
+    }
+
+.social-links__link--color {
+    fill: var(--background);
+    background-color: rgba(255, 255, 255, 0.1);
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "workbench.colorTheme": "Visual Studio Light",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.fontSize": 12,
+    "liveSassCompile.settings.autoprefix": [
+        
+
+    
+    ],
+    "liveSassCompile.settings.formats":[
+        // This is Default.
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": null
+        },
+        // You can add more
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "~/../css/"
+        },  
+    ]
+}

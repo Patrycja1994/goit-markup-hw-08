@@ -1,0 +1,36 @@
+.menu-list {
+    display: flex;
+
+        &__item {
+        &:not(:last-child) {
+        margin-right: 46px;
+        }
+    }
+}
+
+.menu-link__item {
+    position: relative;
+    height: 18px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: all;
+
+        &:active::after,
+        &:hover::after {
+        content: " ";
+        display: block;
+        border-top: 4px solid var(--hover);
+        border-radius: 2px;
+        top: 28px;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        margin-top: 16px;
+        } 
+    
+        &:hover,
+        &:hover {
+        color: var(--hover);
+        }
+}

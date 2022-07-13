@@ -1,0 +1,14 @@
+:root {
+    --background: #FFFFFF;
+    --overlay-background: #F5F4FA;
+    --text-title: #212121;
+    --text: #757575;
+    --hover: #2196F3;
+    --footer-color: #2F303A;
+}
+
+body {
+    font-family: 'Roboto', 'Relaway', sans-serif;
+    font-style: normal;
+    background: var(--background);
+} 
