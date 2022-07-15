@@ -1,3 +1,4 @@
+@media (min-width: 480px) {
 .contacts-list {
     display: none;
     align-items: center;
@@ -57,13 +58,13 @@
             }
     }
 }
+}
 
 @media (min-width: 768px) {
     .contacts-list {
     display: flex;
     }
 }
-
 
 
 
