@@ -1,3 +1,4 @@
+
 .main-title {
     display: flex;
     align-items: center;
@@ -13,6 +14,7 @@
     height: 400px;
     margin: 0 auto;
     background-size: cover;
+
 
             &__page {
          font-weight: 900;
@@ -40,7 +42,18 @@
          cursor: pointer;
          font-family: inherit;
      }
- }
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .main-title {
+        background-image:
+        linear-gradient(rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                     url("../images/main-picture-mobile@2x.jpg");
+    }
+}
 
 
 // .main-title {

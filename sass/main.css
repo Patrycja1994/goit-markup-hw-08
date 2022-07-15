@@ -164,6 +164,11 @@ body {
   font-family: inherit;
 }
 
+@media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .main-title {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main-picture-mobile@2x.jpg");
+  }
+}
 .lorem-ipsum-text {
   display: flex;
   align-items: center;
@@ -260,21 +265,24 @@ body {
 
 .work-team {
   background: var(--overlay-background);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .work-team__list {
   display: flex;
   text-align: center;
   align-items: center;
+  flex-direction: column;
 }
 .work-team__members:not(:last-of-type) {
-  margin-right: 30px;
+  margin-bottom: 30px;
 }
 .work-team__images {
   background: var(--background);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  width: 270px;
-  height: 428px;
+  width: 450px;
+  height: 622px;
 }
 .work-team__description-name {
   margin-top: 30px;
@@ -289,6 +297,11 @@ body {
   color: var(--text);
   font-size: 16px;
   font-weight: 400;
+}
+.work-team__images-members {
+  display: flex;
+  width: 450px;
+  height: 460px;
 }
 
 .customers-subsection {
@@ -811,7 +824,7 @@ body {
 
 .section-title {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
