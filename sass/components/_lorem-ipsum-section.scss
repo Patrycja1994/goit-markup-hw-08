@@ -1,14 +1,28 @@
 .lorem-ipsum-text {
     display: flex;
     align-items: center;
+    position: relative;
+    padding-top:0px; 
 
         &__list{
         display: flex;
+        flex-direction: column;
+        margin-top: 210px;
+        margin-bottom: 60px;
+        
     }
-    
+
         &__item {
-        margin-right: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top:0px; 
     }
+
+     &__item:not(:last-child) {
+     margin-bottom: 180px;
+     }
     
         &__title {
         font-weight: 700;
@@ -16,36 +30,44 @@
         line-height: 1.14;
         color: var(--text-title);
         margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
     }
     
         &__contents {
         display: flex;
         font-weight: 400;
         font-size: 14px;
-        
+        max-width: 450px;
         line-height: 1.7;
         letter-spacing: 0.03em;
         color: var(--text);
-        width: 270px;
-        height: 75px;
     }
 }
 
 .lorem-ipsum-picture {
+    position: absolute;
+
         &__list {
         display: flex;
         justify-content: space-between;
+        flex-direction: column;
+        margin-top: 60px;
+        margin-bottom: 166px;
     }
     
         &__item {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 270px;
+        width: 450px;
         height: 120px;
         background-color: var(--overlay-background);
-        margin-top: 94px;
-        margin-bottom: 30px;
+    }
+
+    &__item:not(:last-child) {
+        margin-bottom: 136px;
     }
     
         &__link {
@@ -57,5 +79,65 @@
         height: 70px;
     }
 }
+
+// .lorem-ipsum-text {
+//     display: flex;
+//     align-items: center;
+
+//         &__list{
+//         display: flex;
+//     }
+    
+//         &__item {
+//         margin-right: 30px;
+//     }
+    
+//         &__title {
+//         font-weight: 700;
+//         font-size: 14px;
+//         line-height: 1.14;
+//         color: var(--text-title);
+//         margin-bottom: 10px;
+//     }
+    
+//         &__contents {
+//         display: flex;
+//         font-weight: 400;
+//         font-size: 14px;
+        
+//         line-height: 1.7;
+//         letter-spacing: 0.03em;
+//         color: var(--text);
+//         width: 270px;
+//         height: 75px;
+//     }
+// }
+
+// .lorem-ipsum-picture {
+//         &__list {
+//         display: flex;
+//         justify-content: space-between;
+//     }
+    
+//         &__item {
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         width: 270px;
+//         height: 120px;
+//         background-color: var(--overlay-background);
+//         margin-top: 94px;
+//         margin-bottom: 30px;
+//     }
+    
+//         &__link {
+//         cursor: default;
+//     }
+    
+//         &__images{
+//         width: 65.32px;
+//         height: 70px;
+//     }
+// }
 
 

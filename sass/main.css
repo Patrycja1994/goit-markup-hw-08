@@ -144,6 +144,7 @@ body {
   line-height: 42px;
   text-align: center;
   color: var(--background);
+  max-width: 365px;
 }
 .main-title__button {
   display: block;
@@ -166,12 +167,24 @@ body {
 .lorem-ipsum-text {
   display: flex;
   align-items: center;
+  position: relative;
+  padding-top: 0px;
 }
 .lorem-ipsum-text__list {
   display: flex;
+  flex-direction: column;
+  margin-top: 210px;
+  margin-bottom: 60px;
 }
 .lorem-ipsum-text__item {
-  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 0px;
+}
+.lorem-ipsum-text__item:not(:last-child) {
+  margin-bottom: 180px;
 }
 .lorem-ipsum-text__title {
   font-weight: 700;
@@ -179,31 +192,40 @@ body {
   line-height: 1.14;
   color: var(--text-title);
   margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
 }
 .lorem-ipsum-text__contents {
   display: flex;
   font-weight: 400;
   font-size: 14px;
+  max-width: 450px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--text);
-  width: 270px;
-  height: 75px;
 }
 
+.lorem-ipsum-picture {
+  position: absolute;
+}
 .lorem-ipsum-picture__list {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-bottom: 166px;
 }
 .lorem-ipsum-picture__item {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 270px;
+  width: 450px;
   height: 120px;
   background-color: var(--overlay-background);
-  margin-top: 94px;
-  margin-bottom: 30px;
+}
+.lorem-ipsum-picture__item:not(:last-child) {
+  margin-bottom: 136px;
 }
 .lorem-ipsum-picture__link {
   cursor: default;
