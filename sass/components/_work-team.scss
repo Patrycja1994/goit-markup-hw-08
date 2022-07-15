@@ -1,7 +1,5 @@
 .work-team {
     background: var(--overlay-background);
-    padding-top: 60px;
-    padding-bottom: 60px;
 
         &__list {
         display: flex;
@@ -41,7 +39,7 @@
     }
 
         &__images-members {
-            display: flex;
+        display: flex;
         width: 450px;
         height: 460px;
     }

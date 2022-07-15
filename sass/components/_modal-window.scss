@@ -1,3 +1,185 @@
+
+.modal {
+    display: block;
+    width: 528px ;
+    height: 581px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    min-height: 581px;
+    background-color: var(--background);
+    transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: transform;
+
+        .is-hidden & {
+        transform: translate(-50%);
+        } 
+}
+
+.modal-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    height: 30px;
+    width: 30px;
+    background-color: var(--background);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.modal-title {
+    display: block;
+    padding-top: 40px;
+    font-size: 20px;
+    line-height: 1.15;
+    font-weight: 700;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+ }
+
+.modal-form {
+    margin-top: 12px;
+
+        &__label {
+        display: block;
+        position: relative;
+        color: var(--text);
+        font-size: 12px;
+        line-height: 1.66;
+        margin-left: 40px;
+        position: relative;
+    } 
+    
+        &__input {
+        display: flex;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        width: 448px;
+        height: 40px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        padding-left: 42px;
+    }
+    
+        &__icon {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 14px;
+        top: 30px;
+    }
+    
+        &__policy-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        color: var(--text);
+        font-size: 14px;
+        line-height: 1.714;
+        margin-bottom: 30px;
+        margin-right: 55px;
+    
+        
+            &::before {
+            display: inline-block;
+            content: "";
+            width: 16px;
+            height: 15px;
+            outline: 2px solid var(--text-title);
+            border-radius: 3px;
+            transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            margin-right: 8px;
+            margin-left: 55px;
+            cursor: pointer;
+            }
+     }
+    
+        &__comments {
+        display: block;
+        font: inherit;
+        height: 120px;
+        width: 448px;
+        font-size: 12px;
+        line-height: 1.66;
+        padding: 12px 16px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        margin-bottom: 20px;
+    }
+    
+        &__submit-button {
+        width: 200px;
+        height: 50px;
+        background-color: var(--hover);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        border:none;
+        color: var(--background);
+        font-size: 16px;
+        line-height: 1.875;
+        margin-left: 164px;
+        cursor: pointer;
+     }
+    
+        &__textarea::placeholder{
+        color:rgba(117, 117, 117, 0.5);
+    } 
+    
+        &__input:focus-within,
+        &__textarea:focus-within {
+        border-color: var(--hover);
+        transition-property: border-color;
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+        &__label:focus-within > svg {
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition-property: fill;
+        fill: var(--hover);
+    }
+    
+        &__policy:checked + .modal-form__policy-text::before {
+        background-color: var(--hover);
+        border: 3px solid var(--hover);
+        background-image: url(../images/accept.svg);
+        background-position: center;
+        outline: none;
+     }
+    
+        &__text-decoration {
+        color: var(--hover);
+        text-decoration: underline;
+        font-size: 14px;
+        line-height: 1.714;
+        padding-left: 3px;
+        padding-right: 3px;
+     }
+    
+        &__input:focus,
+        &__textarea:focus {
+         outline: none;
+    }   
+    
+        &__input-textarea::placeholder {
+        font-size: 16px;
+        line-height: 1.25;
+        color: rgba(255, 255, 255, 0.6);
+    }
+     
+}
+
+
+
+
 .modal {
     display: block;
     width: 528px ;

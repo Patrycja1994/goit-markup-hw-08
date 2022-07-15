@@ -1,5 +1,6 @@
 .footer{
-    display: block;
+    align-items: center;
+    justify-content: center;
     background-color: var(--footer-color);
     min-width: 100%;
     font-weight: 400;
@@ -11,10 +12,35 @@
 }
 
 .page-footer {
-    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .page-footer-item{
     justify-content: flex-start;
 }
+
+
+// .footer{
+//     display: block;
+//     background-color: var(--footer-color);
+//     min-width: 100%;
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 1.7;
+//     color: var(--background);
+//     font-family: inherit;
+//     padding: 60px 0;
+// }
+
+// .page-footer {
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// .page-footer-item{
+//     justify-content: flex-start;
+// }
