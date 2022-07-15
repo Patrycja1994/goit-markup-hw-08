@@ -35,6 +35,17 @@
         }
 }
 
+@media (min-width: 768px) {
+    .menu-list {
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-list__item:not(:last-child) {
+    margin-right: 60px;
+    }
+}
 
 // .menu-list {
 //     display: flex;

@@ -16,6 +16,14 @@
     cursor: pointer;
 }
 
+
+@media (min-width: 768px) {
+    .page-header__webstudio-up {
+        margin-right: 83px;
+        font-size: 24px;
+    }
+}
+
 // .page-footer-item__webstudio-down {
 //     font-family: 'Raleway';
 //     font-weight: 700;
