@@ -1,4 +1,5 @@
 
+@media (min-width: 320px) and (max-width: 767px) {
 .join-us {
     justify-content: flex-start;
     margin: 60px;
@@ -20,7 +21,32 @@
         background-color: rgba(255, 255, 255, 0.1);
         }
     }
+}
 
+@media (min-width: 768px) {
+.join-us {
+        justify-content: flex-start;
+        margin-bottom: 120px;
+        margin-left: 144px;
+        
+                 &__title {
+                 align-items: center;
+                 margin-bottom: 20px;
+                 font-weight: 700; 
+                 font-size: 14px; 
+                 line-height: 16.41px;
+            } 
+        
+        .social-links__icons--fill {
+             fill: var(--background);
+            }
+        
+        .social-links__link--color {
+            fill: var(--background);
+            background-color: rgba(255, 255, 255, 0.1);
+            }
+        }
+    } 
 
 // .join-us {
 // justify-content: flex-start;

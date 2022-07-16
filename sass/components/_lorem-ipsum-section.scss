@@ -95,6 +95,7 @@
             flex-direction: row;
             gap: 30px;
             padding-top: 210px;
+            margin-bottom: 45px;
         }
     
             &__item {
@@ -102,7 +103,7 @@
             padding-top:0px; 
         }
     
-         &__item {
+         &__item:nth-child(-n + 2)  {
          margin-bottom: 150px;
          }
         
