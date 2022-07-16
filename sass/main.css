@@ -82,6 +82,11 @@ img {
     display: none;
   }
 }
+@media (min-width: 768px) and (max-width: 1200px) {
+  .section-hidden {
+    display: none;
+  }
+}
 .active::after {
   content: " ";
   display: block;
@@ -119,6 +124,16 @@ body {
   position: relative;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .page-header__menu {
+    border-bottom: 1px solid #ECECEC;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background: var(--background);
+    position: relative;
+  }
+}
 @media (min-width: 320px) and (max-width: 1200px) {
   .page-header__webstudio-up {
     margin-right: 83px;
@@ -150,7 +165,7 @@ body {
   .page-header__webstudio-up {
     font-family: "Raleway";
     font-weight: 700;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 1.19;
     margin-right: 93px;
     cursor: pointer;
@@ -1824,7 +1839,7 @@ body {
   display: flex;
   width: 24px;
   height: 16px;
-  position: fixed;
+  position: absolute;
   top: 22px;
   right: 23px;
   justify-content: center;

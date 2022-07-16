@@ -25,7 +25,7 @@
           <span style="color: #2196f3">Web</span>Studio
         </a>
         <nav>
-          <ul class="menu-list">
+          <ul class="menu-list is-open">
             <li class="menu-list__item">
               <a class="menu-link__item active" href="index.html">Agencja</a></li>
             <li class="menu-list__item">
@@ -595,21 +595,22 @@
           </form>   
           </div>
       </div>  
-<!-- 
-       <button type="button" mobile-menu__btn--open>
-        <svg class="modal-menu__icon">
-         <use href="./images/sprite.svg#icon-menu_24px"></use>
-        </svg> 
-     </button>  -->
+<section class=" section-hidden">
+      <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20">
+          <use href="./images/sprite.svg#icon-menu_24px"></use>
+        </svg>
+      </button>
 
-      <!-- <div class="modal-menu is-hidden" mobile-menu>
-        <div class="modal-menu__button">
-        <button type="button" mobile-menu__btn--close>X</button>
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu" type="button" js-close-menu>X</button>
       </div>
-    </div>  -->
+    </div> 
 
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script> 
+
+  </section>
 
   </body>
 </html>

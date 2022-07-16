@@ -7,3 +7,14 @@
     background: var(--background);
     position: relative;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+.page-header__menu {
+    border-bottom: 1px solid #ECECEC;
+    display:flex;
+    align-items: center;
+    height: 60px;
+    background: var(--background);
+    position: relative;
+}
+}
