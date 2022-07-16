@@ -187,9 +187,14 @@
             <li class="work-team__members">
               <figure class="work-team__images">
                 <img class="work-team__images-members"
-                  src="./images/13.jpg"
-                  srcset="./images/mobile/work-team.jpg 450w, ./images/tablet/work-team-tablet.jpg 708w"
-                  sizes=" (min-width: 450px) calc(100vw - 30px), (min-width: 708px) calc(50vw - 30px)"
+                src=" ./images/13.jpg"
+                srcset="
+                ./images/mobile/work-team.jpg 450w,
+                ./images/mobile/work-team@2x.jpg 900w,
+                ./images/tablet/work-team-tablet.jpg 354w,
+                ./images/tablet/work-team-tablet@2x.jpg 708w,
+                ./images/13.jpg 406w "
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) calc(50vw - 30px), (min-width: 320px) calc(100vw - 30px)"
                   alt="John Doe"
                 />
                 <figcaption class="work-team__description">
@@ -245,6 +250,13 @@
               <figure class="work-team__images">
                 <img class="work-team__images-members"
                   src="./images/1.jpg"
+                  srcset="
+                  ./images/mobile/work-team-2.jpg 450w,
+                  ./images/mobile/work-team-2@2x.jpg 900w,
+                  ./images/tablet/work-team-tablet-2.jpg 354w,
+                  ./images/tablet/work-team-tablet-2@2x.jpg 708w,
+                  ./images/13.jpg 406w "
+                    sizes="(min-width: 1200px) 270px, (min-width: 768px) calc(50vw - 30px), (min-width: 320px) calc(100vw - 30px)"
                   alt="woman"
                 />
                 <figcaption class="work-team__description">
@@ -299,6 +311,13 @@
               <figure class="work-team__images">
                 <img class="work-team__images-members"
                   src="./images/2.jpg"
+                  srcset="
+                  ./images/mobile/work-team-3.jpg 450w,
+                  ./images/mobile/work-team-3@2x.jpg 900w,
+                  ./images/tablet/work-team-tablet-3.jpg 354w,
+                  ./images/tablet/work-team-tablet-3@2x.jpg 708w,
+                  ./images/13.jpg 406w "
+                    sizes="(min-width: 1200px) 270px, (min-width: 768px) calc(50vw - 30px), (min-width: 320px) calc(100vw - 30px)"
                   alt="man 2"
                 />
                 <figcaption class="work-team__description">
@@ -353,7 +372,15 @@
             <li class="work-team__members"></li>
             <figure class="work-team__images">
               <img class="work-team__images-members"
-              src="./images/3.jpg" alt="man 3"/>
+              src="./images/3.jpg" 
+              srcset="
+              ./images/mobile/work-team-4.jpg 450w,
+              ./images/mobile/work-team-4@2x.jpg 900w,
+              ./images/tablet/work-team-tablet-4.jpg 354w,
+              ./images/tablet/work-team-tablet-4@2x.jpg 708w,
+              ./images/13.jpg 406w "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) calc(50vw - 30px), (min-width: 320px) calc(100vw - 30px)"
+                alt="man 3"/>
               <figcaption class="work-team__description">
                 <h4 class="work-team__description-name">John Doe</h4>
                 <p class="work-team__description-occupation">UI Designer</p>

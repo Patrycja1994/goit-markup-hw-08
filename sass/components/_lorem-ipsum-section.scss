@@ -1,3 +1,4 @@
+@media (min-width: 320px) {
 .lorem-ipsum-text {
     display: flex;
     align-items: center;
@@ -80,7 +81,90 @@
         height: 70px;
     }
 }
+}
 
+@media (min-width: 768px) {
+    .lorem-ipsum-text {
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding-top:0px; 
+    
+            &__list{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 30px;
+            
+        }
+    
+            &__item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-top:0px; 
+        }
+    
+         &__item {
+         margin-bottom: 180px;
+         }
+        
+            &__title {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;
+            color: var(--text-title);
+            margin-bottom: 10px;
+            justify-content: center;
+            align-items: center;
+            align-items: center;
+        }
+        
+            &__contents {
+            display: flex;
+            font-weight: 400;
+            font-size: 14px;
+            max-width: 354px;
+            line-height: 1.7;
+            letter-spacing: 0.03em;
+            color: var(--text);
+        }
+    }
+
+     .lorem-ipsum-picture {
+        display: flex;
+
+         &__list {
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+         justify-content: space-between;
+         gap: 30px;
+         margin-top: 60px;
+         margin-bottom: 16px;
+     }
+    
+         &__item {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: 354px;
+         height: 120px;
+         background-color: var(--overlay-background);
+         margin-bottom: 131px;
+     }
+    
+         &__link {
+         cursor: default;
+     }
+    
+         &__images{
+         width: 65.32px;
+         height: 70px;
+     }
+ }
+}
 // .lorem-ipsum-text {
 //     display: flex;
 //     align-items: center;
