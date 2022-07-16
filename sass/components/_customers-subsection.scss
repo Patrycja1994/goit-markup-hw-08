@@ -1,9 +1,8 @@
 
 
 @media (min-width: 480px) {
-    
+
 .customers-subsection {
-    flex-basis: calc(100% / 2);
         &__list {
         display: flex;
         flex-wrap: wrap;
