@@ -29,6 +29,13 @@ img {
     pointer-events: none;
 }
 
+
+@media (min-width: 320px) and (max-width: 1200px) {
+.section-hidden {
+    display: none;
+}
+}
+
 .active::after {
     content: " ";
     display: block;

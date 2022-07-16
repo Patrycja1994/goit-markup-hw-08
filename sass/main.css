@@ -77,6 +77,11 @@ img {
   pointer-events: none;
 }
 
+@media (min-width: 320px) and (max-width: 1200px) {
+  .section-hidden {
+    display: none;
+  }
+}
 .active::after {
   content: " ";
   display: block;
@@ -744,23 +749,22 @@ body {
     color: rgba(255, 255, 255, 0.6);
   }
 }
-.address {
-  font: inherit;
-  margin-top: 20px;
-}
-
-.address-footer__address,
+@media (min-width: 1200px) {
+  .address {
+    font: inherit;
+    margin-top: 20px;
+  }
+  .address-footer__address,
 .address-footer__email {
-  margin-bottom: 9px;
-}
-
-.address-footer__email-link,
+    margin-bottom: 9px;
+  }
+  .address-footer__email-link,
 .address-footer__telephone-link {
-  font-size: 14px;
-  line-height: 24px;
-  color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
-
 @media (min-width: 320px) and (max-width: 767px) {
   .join-us {
     justify-content: flex-start;
