@@ -4,10 +4,11 @@
     &__list {
     display: flex;
     flex-wrap: wrap;
-    max-width: 400px;
+    max-width: 450px;
     margin-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
 }
+
 
     &__item {
     &:not(:last-child) {
@@ -16,10 +17,15 @@
 
     &__item-button {
     display: flex;
+    width: 135px;
+    margin-bottom: 15px;
     background: var(--overlay-background);
     border-radius: 4px;
-    padding: 6px 22px 6px 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     text-align: center;
+    text-align: center;
+    justify-content: center;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;

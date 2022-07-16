@@ -1,10 +1,11 @@
 @media (min-width: 480px) {
 
 .pictures-portfolio {
-margin-bottom: 60px;
+
     &__list {
     display: block;
     flex-wrap: wrap;
+    padding-bottom: 60px;
 } 
 
     &__item:not(:last-child) {
@@ -57,7 +58,7 @@ margin-bottom: 60px;
     top: 0;
     left: 0;
     width: 450px;
-    height: 295px;
+    height: 294px;
     transform: translateY(100%);
     background-color: rgba(33, 150, 243, 0.9);
     color: var(--background); 
