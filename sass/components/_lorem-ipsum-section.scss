@@ -68,7 +68,7 @@
     }
 
     &__item:not(:last-child) {
-        margin-bottom: 150px;
+        margin-bottom: 136px;
     }
     
         &__link {
@@ -94,13 +94,10 @@
             flex-wrap: wrap;
             flex-direction: row;
             gap: 30px;
-            margin-top: 210px;
+            padding-top: 210px;
         }
     
             &__item {
-            display: flex;
-            align-items: center;
-            justify-content: center;
             flex-direction: column;
             padding-top:0px; 
         }
@@ -115,9 +112,6 @@
             line-height: 1.14;
             color: var(--text-title);
             margin-bottom: 10px;
-            justify-content: center;
-            align-items: center;
-            align-items: center;
         }
         
             &__contents {
