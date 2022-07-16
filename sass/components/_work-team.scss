@@ -47,7 +47,7 @@
 }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1200px) {
     .work-team {
         background: var(--overlay-background);
     
@@ -99,46 +99,46 @@
     }
     }
 
-// .work-team {
-//     background: var(--overlay-background);
+    @media (min-width: 1200px) {
+    .work-team {
+        background: var(--overlay-background);
 
-//         &__list {
-//         display: flex;
-//         text-align: center;
-//         align-items: center;
-//     }
-    
-//         &__members {
-//         &:not(:last-of-type) {
-//         margin-right: 30px;
-//         }
-//     }
-    
-//         &__images {
-//         background: var(--background);
-//         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-//         border-radius: 0px 0px 4px 4px;
-//         width: 270px;
-//         height: 428px;
-//     }
-    
-//         &__description-name {
-//         margin-top: 30px;
-//         margin-bottom: 10px;
-//         text-align: center;
-//         font-weight: 500;
-//         font-size: 16px;
-//         line-height: 1.19;
-//         color: var(--text-title);
-//     }
-    
-//         &__description-occupation {
-//         color: var(--text);
-//         font-size: 16px;
-//         font-weight: 400;
-//     }
+            &__list {
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+        
+            &__members {
+            &:not(:last-of-type) {
+            margin-right: 30px;
+            }
+        }
+        
+            &__images {
+            background: var(--background);
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 0px 0px 4px 4px;
+            width: 270px;
+            height: 428px;
+        }
+        
+            &__description-name {
+            margin-top: 30px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.19;
+            color: var(--text-title);
+        }
+        
+            &__description-occupation {
+            color: var(--text);
+            font-size: 16px;
+            font-weight: 400;
+        }
 
-// }
-
-
+    }
+    }
 

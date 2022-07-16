@@ -1,11 +1,13 @@
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-@media (min-width: 480px) and (min-width: 768px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .section  {
         padding-top: 60px;
         padding-bottom: 60px;
     } 
+}
+
+@media  (min-width: 768px) {
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 }

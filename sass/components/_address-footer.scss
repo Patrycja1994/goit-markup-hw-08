@@ -1,3 +1,4 @@
+@media (min-width: 320px) and (max-width: 1199px) {
 .address {
     font: inherit;
     margin-top: 20px;
@@ -14,21 +15,22 @@
         line-height: 24px;
         color: rgba(255, 255, 255, 0.6);
 }
+}
 
+    .address {
+        font: inherit;
+        margin-top: 20px;
+    }
 
-// .address {
-//     font: inherit;
-//     margin-top: 20px;s
-// }
+    .address-footer__address,
+    .address-footer__email {
+        margin-bottom: 9px;
+    }
 
-// .address-footer__address,
-// .address-footer__email {
-//     margin-bottom: 9px;
-// }
+    .address-footer__email-link,
+    .address-footer__telephone-link {
+            font-size: 14px;
+            line-height: 24px;
+            color: rgba(255, 255, 255, 0.6);
+    }
 
-// .address-footer__email-link,
-// .address-footer__telephone-link {
-//         font-size: 14px;
-//         line-height: 24px;
-//         color: rgba(255, 255, 255, 0.6);
-// }
