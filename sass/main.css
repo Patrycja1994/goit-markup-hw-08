@@ -653,8 +653,6 @@ body {
   }
   .work-team__images-members {
     display: flex;
-    width: 450px;
-    height: 460px;
   }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -697,8 +695,6 @@ body {
   }
   .work-team__images-members {
     display: flex;
-    width: 354px;
-    height: 374px;
   }
 }
 @media (min-width: 1200px) {
@@ -1430,8 +1426,6 @@ body {
   }
   .pictures-portfolio__img {
     object-fit: cover;
-    width: 450px;
-    height: 295px;
   }
   .pictures-portfolio__figure {
     margin: 0 auto;
@@ -1512,8 +1506,6 @@ body {
   }
   .pictures-portfolio__img {
     object-fit: cover;
-    width: 354px;
-    height: 295px;
     object-fit: fill;
     object-position: 50% 50%;
   }
