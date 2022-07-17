@@ -631,6 +631,7 @@ body {
   .customers-subsection__icons {
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: fill;
+    max-width: 150px;
   }
 }
 @media (min-width: 1200px) {
@@ -841,8 +842,8 @@ body {
   position: absolute;
   max-width: 450px;
   max-height: 609px;
-  top: 47%;
-  left: 47%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 528px;
   min-height: 581px;
