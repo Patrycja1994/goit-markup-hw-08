@@ -1,11 +1,11 @@
 
+
 .modal {
-    display: block;
     position: absolute;
-    width: 450px ;
-    height: 609px;
-    top: 50%;
-    left: 50%;
+    max-width: 450px;
+    max-height: 609px;
+    top: 47%;
+    left: 47%;
     transform: translate(-50%, -50%);
     width: 528px;
     min-height: 581px;
@@ -184,19 +184,14 @@
     .modal {
         width: 450px ;
         height: 609px;
-        top: 47%;
-        left: 47%;
     }
 }
 
 .container-modal {
         max-width: 100%;
         padding: 40px 40px;
+        margin:auto;
     }
-
-
-
-
 
 // .modal {
 //     display: block;

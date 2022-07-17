@@ -56,6 +56,15 @@
           </li>
         </ul>
       </div>
+
+      <div class="header-mobile-menu">
+        <button class="header-mobile-menu__button" type="button" mobile-menu-open>
+            <svg class="header-mobile-menu__ico" width="22px" height="22px">
+                <use href="./images/sprite.svg#icon-menu_24px" width="22" height="22"></use>
+            </svg>
+        </button>
+    </div>
+  
     </header>
 
     <main>
@@ -145,7 +154,7 @@
         </div>
       </section> 
 
-       <section class="section section-hidden">
+       <section class="section section-hidden-offer">
         <div class="subsection-offer container">
           <h2 class="section-title">Czym się zajmujemy</h2>
           <ul class="subsection-offer__list">
@@ -562,8 +571,9 @@
           </div>
       </div>
       </footer> 
+
       <div class="backdrop is-hidden" data-modal>
-        <div class="modal container-modal">
+        <div class="modal modal--center container-modal">
           <button type="button" class= "modal-button" data-modal-close>X</button>
           <a class="modal-title">Zostaw swoje dane w formularzu poniżej</a> 
           <form class="modal-form" action="#" method="POST">
@@ -595,22 +605,51 @@
           </form>   
           </div>
       </div>  
-<section class=" section-hidden">
-      <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-        <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20">
-          <use href="./images/sprite.svg#icon-menu_24px"></use>
-        </svg>
-      </button>
 
-      <div class="menu-container js-menu-container" id="mobile-menu">
-        <button class="menu-toggle js-close-menu" type="button" js-close-menu>X</button>
-      </div>
-    </div> 
-
+      <div class="mobile-menu is-hidden" mobile-menu>
+        <button class="mobile-menu__close-btn" type="button" mobile-menu-close>x</button>
+        <ul class="mobile-menu__navigation-list">
+            <li class="mobile-menu__navigation-item">
+                <a href="index.html" class="mobile-menu__navigation-link">Agencja</a>
+            </li>
+            <li class="mobile-menu__navigation-item">
+                <a href="portfolio.html" class="mobile-menu__navigation-link">Portfolio</a>
+            </li>
+            <li class="mobile-menu__navigation-item">
+                <a href="" class="mobile-menu__navigation-link">Kontakt</a>
+            </li>
+        </ul>
+        <ul class="mobile-menu__contact-list">
+            <li class="mobile-menu__contact-item">
+                <a href="tel:48111111111"
+                    class="mobile-menu__contact-link mobile-menu__contact-link--phone">&#43;48&nbsp111&nbsp111&nbsp111</a>
+            </li>
+            <li class="mobile-menu__contact-item">
+                <a href="mailto:info@devstudio.com"
+                    class="mobile-menu__contact-link mobile-menu__contact-link--mail">info&#64;devstudio.com</a>
+            </li>
+        </ul>
+        <ul class="mobile-menu__socjal-list">
+            <li class="mobile-menu__socjal-item">
+                <a href="" class="mobile-menu__socjal-link">Instagram</a>
+            </li>
+            <li class="mobile-menu__socjal-item">
+                <a href="" class="mobile-menu__socjal-link mobile-menu__socjal-link--line">Twitter</a>
+            </li>
+            <li class="mobile-menu__socjal-item">
+                <a href="" class="mobile-menu__socjal-link mobile-menu__socjal-link--line">Facebook</a>
+            </li>
+            <li class="mobile-menu__socjal-item">
+                <a href="" class="mobile-menu__socjal-link mobile-menu__socjal-link--line">Linkedin</a>
+            </li>
+        </ul>
+    </div>
+  
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script> 
-
-  </section>
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
 
   </body>
 </html>
