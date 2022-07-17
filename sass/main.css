@@ -124,7 +124,7 @@ body {
     position: relative;
   }
 }
-@media (min-width: 320px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .page-header__webstudio-up {
     margin-right: 83px;
     font-family: "Raleway";
@@ -878,7 +878,7 @@ body {
   line-height: 1.15;
   font-weight: 700;
   text-align: center;
-  width: 370px;
+  max-width: 370px;
   margin-bottom: 12px;
   padding: 0 30px;
 }
@@ -1619,7 +1619,7 @@ body {
     color: var(--hover);
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .contacts-list {
     display: none;
     align-items: center;
