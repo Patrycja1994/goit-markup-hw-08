@@ -21,6 +21,8 @@
 
     &__img {
     object-fit: cover;
+    width: 450px;
+    height: 295px;
    }
 
     &__figure {
@@ -123,6 +125,8 @@
     
         &__img {
         object-fit: cover;
+        width: 354px;
+        height: 295px;
         object-fit: fill;
         object-position: 50% 50%;
        }

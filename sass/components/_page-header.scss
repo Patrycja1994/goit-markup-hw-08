@@ -1,16 +1,20 @@
 
-.page-header__menu {
+.page-header {
     border-bottom: 1px solid #ECECEC;
+    width: 100%; 
+}
+
+.page-header__menu {
     display:flex;
     align-items: center;
     height: 80px;
     background: var(--background);
     position: relative;
+    width: 100%;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
 .page-header__menu {
-    border-bottom: 1px solid #ECECEC;
     display:flex;
     align-items: center;
     height: 60px;
@@ -18,3 +22,16 @@
     position: relative;
 }
 }
+
+.page-header .container {
+    position: relative;
+    align-items: center;
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    padding: 0 15px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }

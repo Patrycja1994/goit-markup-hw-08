@@ -65,12 +65,9 @@
 
 @media (min-width: 768px) and (max-width: 1200px)  {
     .contacts-list {
-        display: flex;
-        flex-direction: column;
+        display: block;
+        margin: 0 auto;
         margin-right: 15px;
-        margin-left: 101px;
-        align-items: flex-start;
-        align-items: start;
     
             &__item {
             &:hover {
