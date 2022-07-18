@@ -1,42 +1,31 @@
-@media (min-width: 768px) and (max-width: 1200px) {
-    .page-header__webstudio-up {
-        margin-right: 83px;
-        font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        margin-right: 93px;
-        cursor: pointer;
-    }
 
     .page-footer-item__webstudio-down {
-        font-size: 24px;
         font-family: 'Raleway';
         font-weight: 700;
         line-height: 1.1742;
         color: var(--background);
         cursor: pointer;
+        font-size: 24px;
+    } 
+    
+    .page-header__webstudio-up {
+        font-family: 'Raleway';
+        font-weight: 700;
+        line-height: 1.19;
+        margin-right: 93px;
+        cursor: pointer;
+        font-size: 24px;
     }
 
-}
+    
+@media screen and (min-width: 1200px)  {
+    .page-header__webstudio-up {
+        font-size: 26px;
+    }
 
-@media (min-width: 320px) {
-.page-footer-item__webstudio-down {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.1742;
-    color: var(--background);
-    cursor: pointer;
-} 
+    .page-footer-item__webstudio-down {
+        font-size: 26px;
+    }
 
-.page-header__webstudio-up {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.19;
-    margin-right: 93px;
-    cursor: pointer;
-}
 }
 

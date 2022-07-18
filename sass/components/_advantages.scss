@@ -1,227 +1,3 @@
-@media (min-width: 320px) and (max-width: 767px) {
-.lorem-ipsum-text {
-    display: flex;
-    align-items: center;
-    position: relative;
-    padding-top:0px; 
-
-        &__list{
-        display: flex;
-        flex-direction: column;
-        margin-top: 210px;
-        margin-bottom: 60px;
-    }
-
-        &__item {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        padding-top:0px; 
-    }
-
-     &__item:not(:last-child) {
-     margin-bottom: 180px;
-     }
-    
-        &__title {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        color: var(--text-title);
-        margin-bottom: 10px;
-        justify-content: center;
-        align-items: center;
-        align-items: center;
-    }
-    
-        &__contents {
-        display: flex;
-        font-weight: 400;
-        font-size: 14px;
-        max-width: 450px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
-        color: var(--text);
-    }
-}
-
-.lorem-ipsum-picture {
-    position: absolute;
-
-
-        &__list {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        margin-top: 60px;
-        margin-bottom: 166px;
-    }
-    
-        &__item {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 450px;
-        height: 120px;
-        background-color: var(--overlay-background);
-    }
-
-    &__item:not(:last-child) {
-        margin-bottom: 136px;
-    }
-    
-        &__link {
-        cursor: default;
-    }
-    
-        &__images{
-        width: 65.32px;
-        height: 70px;
-    }
-}
-}
-
-@media (min-width: 768px) and (max-width: 1200px)  {
-    .lorem-ipsum-text {
-        display: flex;
-        align-items: center;
-        position: relative;
-        padding-top:0px; 
-    
-            &__list{
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            gap: 30px;
-            padding-top: 210px;
-            margin-bottom: 45px;
-        }
-    
-            &__item {
-            flex-direction: column;
-            padding-top:0px; 
-        }
-    
-         &__item:nth-child(-n + 2)  {
-         margin-bottom: 150px;
-         }
-        
-            &__title {
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 1.14;
-            color: var(--text-title);
-            margin-bottom: 10px;
-        }
-        
-            &__contents {
-            display: flex;
-            font-weight: 400;
-            font-size: 14px;
-            max-width: 354px;
-            line-height: 1.7;
-            letter-spacing: 0.03em;
-            color: var(--text);
-        }
-    }
-
-     .lorem-ipsum-picture {
-        display: flex;
-        position: absolute;
-
-         &__list {
-         display: flex;
-         flex-wrap: wrap;
-         flex-direction: row;
-         justify-content: space-between;
-         gap: 30px;
-         margin-top: 60px;
-         margin-bottom: 16px;
-     }
-    
-         &__item {
-         display: flex;
-         align-items: center;
-         justify-content: center;
-         width: 354px;
-         height: 120px;
-         background-color: var(--overlay-background);
-         margin-bottom: 131px;
-     }
-    
-         &__link {
-         cursor: default;
-     }
-    
-         &__images{
-         width: 65.32px;
-         height: 70px;
-     }
- }
-}
-
-@media (min-width: 1200px) {
-.lorem-ipsum-text {
-    display: flex;
-    align-items: center;
-
-        &__list{
-        display: flex;
-    }
-    
-        &__item {
-        margin-right: 30px;
-    }
-    
-        &__title {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        color: var(--text-title);
-        margin-bottom: 10px;
-    }
-    
-        &__contents {
-        display: flex;
-        font-weight: 400;
-        font-size: 14px;
-        
-        line-height: 1.7;
-        letter-spacing: 0.03em;
-        color: var(--text);
-        width: 270px;
-        height: 75px;
-    }
-}
-
-.lorem-ipsum-picture {
-        &__list {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-        &__item {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 270px;
-        height: 120px;
-        background-color: var(--overlay-background);
-        margin-top: 94px;
-        margin-bottom: 30px;
-    }
-    
-        &__link {
-        cursor: default;
-    }
-    
-        &__images{
-        width: 65.32px;
-        height: 70px;
-    }
-}
-}
 
 @mixin advantages-tittle {
   margin-bottom: 10px;
@@ -285,7 +61,6 @@
     }
   }
 
-// -----------------------768--------------------------
 @media screen and (min-width: 768px) {
 .advantages .container {
     padding-top: 60px;
@@ -337,20 +112,20 @@
   }
 }
 
-// -----------------------1200--------------------------
 @media screen and (min-width: 1200px) {
   .advantages .container {
     padding-top: 94px;
     padding-bottom: 0;
   }
 
-  .advantages__list {
+.advantages {
+  &__list {
     margin-left: 0;
     display: flex;
     flex-direction: row;
   }
 
-  .advantages__item {
+  &__item {
     margin-left: 0;
 
     &:not(:last-child) {
@@ -359,18 +134,18 @@
     }
   }
 
-  .advantages__tittle {
+  &__tittle {
     @include advantages-tittle;
     text-align: left;
     max-width: 270px;
   }
 
-  .advantages__text {
+  &__text {
     @include advantages-text;
     max-width: 270px;
   }
 
-  .advantages__img {
+  &__img {
     display: flex;
     max-width: 270px;
     height: 120px;
@@ -380,4 +155,5 @@
     background-color: #F5F4FA;
     margin-bottom: 30px;
   }
+}
 }
