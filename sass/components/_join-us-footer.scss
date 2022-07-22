@@ -2,7 +2,8 @@
 @media (min-width: 320px) and (max-width: 767px) {
 .join-us {
     justify-content: flex-start;
-    margin: 60px;
+    margin-bottom: 30px;
+    margin-top: 60px;
     
              &__title {
              align-items: center;
@@ -26,8 +27,8 @@
 @media (min-width: 768px) {
 .join-us {
         justify-content: flex-start;
-        margin-bottom: 120px;
         margin-left: 144px;
+        margin-bottom: 70px;
         
                  &__title {
                  align-items: center;
@@ -35,7 +36,6 @@
                  font-weight: 700; 
                  font-size: 14px; 
                  line-height: 16.41px;
-                 margin-top: 40px;
             } 
         
         .social-links__icons--fill {
@@ -56,11 +56,12 @@
 
          &__title {
          align-items: center;
-         margin-top: 12px;
          margin-bottom: 20px;
          font-weight: 700; 
          font-size: 14px; 
          line-height: 16.41px;
+         margin-top: 10px;
+
     } 
 
     .social-links__icons--fill {
