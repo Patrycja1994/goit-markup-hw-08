@@ -64,6 +64,9 @@
         font-size: 14px;
         line-height: 1.143;
         color: var(--background);
+        align-items: start;
+        text-align: left; 
+        justify-content: start;
     }
 }
 }
@@ -177,6 +180,7 @@
             width: 358px;  
             background-color: transparent;
             color: var(--background);
+            padding-top: 20px;
         
                 &:focus,
                 &:active {
@@ -193,3 +197,5 @@
         }
     }
     }
+
+    
