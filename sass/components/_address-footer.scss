@@ -35,3 +35,8 @@
             color: rgba(255, 255, 255, 0.6);
     }
 }
+
+.address-footer__email-link,
+.address-footer__telephone-link:hover {
+            color: var(--hover);
+            }
