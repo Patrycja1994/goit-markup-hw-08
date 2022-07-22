@@ -1,4 +1,11 @@
 @media (min-width: 320px) and (max-width: 767px) {
+
+.center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .footer{
     align-items: center;
     justify-content: center;
@@ -15,8 +22,6 @@
 
 .page-footer {
     justify-content: center;
-    align-items: center;
-    text-align: center;
     flex-wrap: wrap;
     justify-content: space-between;
 }

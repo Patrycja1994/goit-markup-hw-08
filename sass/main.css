@@ -633,6 +633,11 @@ body {
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
+  .center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
   .footer {
     align-items: center;
     justify-content: center;
@@ -648,8 +653,6 @@ body {
   }
   .page-footer {
     justify-content: center;
-    align-items: center;
-    text-align: center;
     flex-wrap: wrap;
     justify-content: space-between;
   }
@@ -1008,7 +1011,6 @@ body {
     height: 50px;
     background-color: var(--bg-color);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    margin-top: 0px;
     padding-left: 16px;
     transition: none;
     color: var(--light-logo-color);
@@ -1120,7 +1122,6 @@ body {
     width: 358px;
     background-color: transparent;
     color: var(--background);
-    padding-top: 20px;
   }
   .newsletter-form__input:focus, .newsletter-form__input:active {
     outline: none;
@@ -1268,8 +1269,6 @@ body {
   }
   .pictures-portfolio__img {
     object-fit: cover;
-    width: 450px;
-    height: 295px;
   }
   .pictures-portfolio__figure {
     margin: 0 auto;
@@ -1316,7 +1315,7 @@ body {
     border-right: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
-    width: 450px;
+    width: 100%;
     height: 110px;
   }
   .pictures-portfolio__figcaption-title {
@@ -1337,7 +1336,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 60px;
-    gap: 30px;
   }
   .pictures-portfolio__item:not(:last-child) {
     margin-bottom: 30px;
@@ -1348,12 +1346,11 @@ body {
     line-height: 2;
     color: var(--grey-dark);
   }
+  .pictures-portfolio__item:nth-child(2n+1) {
+    margin-right: 30px;
+  }
   .pictures-portfolio__img {
     object-fit: cover;
-    width: 354px;
-    height: 295px;
-    object-fit: fill;
-    object-position: 50% 50%;
   }
   .pictures-portfolio__figure {
     margin: 0 auto;
@@ -1400,7 +1397,7 @@ body {
     border-right: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
-    width: 450px;
+    width: 100%;
     height: 110px;
   }
   .pictures-portfolio__figcaption-title {
@@ -1409,8 +1406,6 @@ body {
   }
   .pictures-portfolio__img {
     object-fit: cover;
-    width: 370px;
-    height: 294px;
   }
   .pictures-portfolio__figcaption-type {
     font-weight: 400;
@@ -1442,8 +1437,6 @@ body {
   }
   .pictures-portfolio__img {
     object-fit: cover;
-    width: 370px;
-    height: 294px;
   }
   .pictures-portfolio__figure {
     margin: 0 auto;
@@ -1490,7 +1483,7 @@ body {
     border-right: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
-    width: 370px;
+    width: 100%;
     height: 110px;
   }
   .pictures-portfolio__figcaption-title {
