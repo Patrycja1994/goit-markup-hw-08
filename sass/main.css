@@ -862,7 +862,6 @@ body {
   color: var(--text);
   font-size: 12px;
   line-height: 1.66;
-  position: relative;
 }
 .modal-form__input {
   display: flex;
@@ -974,7 +973,6 @@ body {
 
 @media (min-width: 320px) and (max-width: 767px) {
   .newsletter {
-    display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -1007,17 +1005,10 @@ body {
     border-color: rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     height: 50px;
-    width: 450px;
+    width: 100%;
     background-color: transparent;
     color: var(--background);
-    max-width: 450px;
-    height: 50px;
-    background-color: var(--bg-color);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    padding-left: 16px;
     transition: none;
-    color: var(--light-logo-color);
-    outline-color: var(--link-color);
   }
   .newsletter-form__input:focus, .newsletter-form__input:active {
     outline: none;
@@ -1087,6 +1078,7 @@ body {
   .newsletter {
     margin-left: 77px;
     margin-top: 12px;
+    display: flex;
   }
   .newsletter__save-button {
     display: flex;
@@ -1099,7 +1091,7 @@ body {
     font-size: 16px;
     line-height: 1.875;
     border-radius: 4px;
-    margin-top: 36px;
+    margin-top: 43px;
     margin-left: 12px;
     border: none;
     text-align: left;
@@ -1111,9 +1103,6 @@ body {
     height: 24px;
     margin-left: 24px;
     margin-right: 13px;
-  }
-  .newsletter-form {
-    display: flex;
   }
   .newsletter-form__input {
     display: flex;
