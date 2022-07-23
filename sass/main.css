@@ -1319,7 +1319,7 @@ body {
     margin-left: 24px;
   }
 }
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) {
   .pictures-portfolio__list {
     display: flex;
     flex-wrap: wrap;
@@ -1415,9 +1415,11 @@ body {
     line-height: 2;
     color: var(--grey-dark);
   }
-  .pictures-portfolio__item:nth-child(3n+2) {
+  .pictures-portfolio__item:nth-child(1n+2) {
     margin-right: 30px;
-    margin-left: 30px;
+  }
+  .pictures-portfolio__item:nth-child(3n+3) {
+    margin-right: 0;
   }
   .pictures-portfolio__item:nth-last-child(5), .pictures-portfolio__item:nth-last-child(8) {
     margin-bottom: 30px;
