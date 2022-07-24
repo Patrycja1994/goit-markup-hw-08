@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 1200px) {
+@media (min-width: 320px) {
 .contacts-list {
     display: none;
     align-items: center;
@@ -68,6 +68,9 @@
         display: block;
         margin: 0 auto;
         margin-right: 15px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     
             &__item {
             &:hover {
@@ -136,6 +139,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     margin-left: auto;
 
         &__item {
