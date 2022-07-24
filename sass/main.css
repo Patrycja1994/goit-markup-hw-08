@@ -314,6 +314,7 @@ body {
   .advantages__item {
     margin-left: 30px;
     margin-top: 30px;
+    width: calc(50% - 30px);
   }
   .advantages__item:not(:last-child) {
     margin-bottom: 0px;
@@ -359,6 +360,7 @@ body {
   }
   .advantages__item {
     margin-left: 0;
+    width: calc(25% - 30px);
   }
   .advantages__item:not(:last-child) {
     margin-right: 30px;
@@ -555,12 +557,12 @@ body {
     text-align: center;
     justify-content: center;
     height: 92px;
-    width: 100%;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     cursor: pointer;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border;
+    width: calc(50% - 30px);
   }
   .customers-subsection__item:hover {
     background-color: var(--background);
@@ -585,7 +587,7 @@ body {
 }
 @media (min-width: 768px) {
   .customers-subsection__item {
-    max-width: 226px;
+    width: calc(33.3333% - 30px);
   }
 }
 @media (min-width: 1200px) {
